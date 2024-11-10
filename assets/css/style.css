@@ -15,8 +15,8 @@ body {
   font-size: 1.2rem;
   font-family: "Kumbh Sans", sans-serif;
   background-color: var(--cyan);
-  background-image: url(/assets/img/bg-pattern-top.svg),
-    url(/assets/img/bg-pattern-bottom.svg);
+  background-image: url(assets/img/bg-pattern-top.svg),
+    url(assets/img/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: left -20rem top -35rem, right -20rem bottom -40rem;
   /* url(images/bg-pattern-top.svg) left -20rem top -35rem no-repeat, url(images/bg-pattern-bottom.svg) right -10rem bottom -40rem no-repeat; */
