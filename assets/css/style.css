@@ -61,10 +61,60 @@ body {
   align-items: center;
 }
 
+.name h5 {
+  font-family: inherit;
+  color: var(--dark-blue);
+}
+
+.name p {
+  color: var(--dark-gray);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.city h6 {
+  margin-top: 1rem;
+  color: var(--gray-blue);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
 hr {
   width: 100%;
+  margin-top: 1.5rem;
+  border: none;
+  border-top: 0.1px solid var(--dark-gray);
 }
 
 .numbers {
+  margin-top: 1.5rem;
   display: flex;
+  gap: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.num1 h5,
+.num2 h5,
+.num3 h5 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.num1 p,
+.num2 p,
+.num3 p {
+  color: var(--gray-blue);
+  font-size: 0.5rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+.attribution {
+  transform: translateY(-50px);
+}
+
+@media (max-width: 500px) {
+  body {
+    background-position: left -40rem top -40rem, right -40rem bottom -40rem;
+  }
 }
